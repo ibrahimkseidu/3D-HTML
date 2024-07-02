@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="icon" href="Ibrahim.jpg" type="image/x-icon">
+        <title>Ibrahim</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="current_date">
+                <div class="current_week">
+                    <span></span>
+                    <span data-testid="currentDayOfTheWeek"></span>
+                </div>
+                <p data-testid="currentUTCTime"></p>
+            </div>
+            <nav>
+                <div class="nav-icons">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#home">home</a>
+                    </li>
+                    <li>
+                        <a href="#">say hello</a>
+                    </li>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                </ul>
+                <div id="logo">
+                    <a href="#main">
+                        <i class="fi fi-brands-astrazeneca"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/ibrahimkseidu" target="_blank">
+                        <i class="fa-brands fa-github" data-testid="githubURL"></i>
+                    </a>
+                    <a href="https://twitter.com/Ibrahim Sedu">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </nav>
+            <div class="dropdown">
+                <ul class="nav-links_drop active">
+                    <li>
+                        <a href="file:///C:/Users/HP/Desktop/3D%20HTML/Handred.html">home</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Say hello</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="main">
+            <section class="hero">
+                <div class="hero_content">
+                    <div class="hero_image">
+                        <img src="Ibrahim.jpg" alt="iamibrahim" data-testid="slackDisplayImage">
+                    </div>
+                    <div class="hero_head">
+                        <h1 data-testid="slackUserName">
+                            Welcome to
+                            <span>Vibrant Web Page</span>
+                        </h1>
+                        <h4 data-testid="myTrack">
+                            I am a multidisciplinary
+                            <span>Frontend Developer</span>
+                            from Ghana
+                        </h4>
+                        <div class="btn">
+                            <button><a ref="https://github.com" href="https://github.com/ibrahimkseidu"> visit me</button></a>
+                            <button><a ref="#contact">get in touch</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact_description reveal">
+                    <h3>get in touch</h3>
+                    <p style="position: relative;
+                    display: inline;">I am a web developer who is dedicated to providing high-quality, user-friendly websites and web applications. I am committed to ensuring that you are completely satisfied with your project.</p>
+                    <p>I will personally review your message within 24 hours and provide you with a tailored solution that meets your specific requirements. Thank you for your trust!</p>
+                    <div>
+                        <div class="connect">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Sunyani, Ghana</span>
+                        </div>
+                        <div class="connect">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>(+233) 541716562</span>
+                        </div>
+                        <div class="connect">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>
+                                <a href="mailto:seidu7426@gmail.com">seidu7426@gmail.com</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="connect_icons">
+                    <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/iamibrahim23" target="_blank">
+                            <i class="fa-brands fa-github" data-testid="githubURL"></i>
+                        </a>
+                        <a href="https://twitter.com/iamibrahim23">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- foot section -->
+        <footer>
+            <p>Copyright &copy; 2023 | All right reserved</p>
+            <p>Designed by
+                <span>Ibrahim Seidu</span>
+            </p>
+        </footer>
+        <script src="vi.js"></script>
+    </body>
+</html>
+<style>
+    /* icons */
+
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+
+/* google font */
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;700&family=Poppins:wght@200;500;700;900&family=Sacramento&display=swap');
+
+
+  /* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-inline-size: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+html {
+  background-color: #f1f9faff;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: capitalize;
+  line-height: 0.85;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+
+/* header section */
+header {
+  font-size: 0.75rem;
+  color: #fff;
+position: fixed;
+inset-block-start: 0;
+inset-inline-start: 0;
+inset-inline-end: 0;
+background-color: #333;
+z-index: 1000;
+
+}
+
+#logo {
+  display: none;
+}
+
+#logo a {
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.current_date {
+  color: rgb(255, 255, 255);
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  background-color: rgb(22, 85, 201);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+/* nav links */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  background-color: #051a22ff;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-icons i {
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+
+.fa-brands {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 7px;
+}
+
+.fa-brands:hover {
+  color: #007bff;
+}
+
+/* dropdown */
+.dropdown {
+  position: absolute;
+  inset-block-start: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  inline-size: 0;
+  block-size: 0;
+  background-color: #051a22ff;
+  opacity: .95;
+  overflow: hidden;
+  transition: width 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.dropdown.open {
+  inline-size: 100%;
+  block-size: 100vh;
+}
+
+.active {
+  color: red;
+}
+
+.nav-links_drop {
+  display: flex;
+  flex-direction: column;
+    gap: 24px;
+    /* padding: 20px; */
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5em;
+    text-transform: capitalize;
+}
+
+.nav-links_drop li a {
+  color: #fff;
+    font-weight: 400;
+    font-family: 'Sacramento', cursive;
+}
+
+.nav-links_drop li a:hover {
+  border-block-end: 1px solid #fff;
+    color: #007bff;
+}
+
+.hero {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  block-size: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: background 0.5s ease;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inline-size: 0;
+  inset-inline-start: 100%;
+  block-size: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.822));
+  pointer-events: none;
+  transition: background 2s ease-out;
+}
+
+.hero_image img {
+  margin: 0 auto;
+  inline-size: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero_head {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.hero_head span {
+  color: #007bff;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+}
+
+.hero_head h4 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.hero button {
+  inline-size: 120px;
+  block-size: 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hero button:hover {
+  background-color: #007bff;
+  border: none;
+}
+
+
+h2 {
+  font-size: 3rem;
+  display: inline;
+}
+
+h3 {
+  font-size: 1.7rem;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.reveal {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 2s all ease-out;
+}
+.reveal.actives {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+#contact {
+  background-color: #189fb0ff;
+}
+.contact_description {
+  color: #fff;
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+}
+
+.contact_description h3 {
+  text-transform: uppercase;
+}
+
+.connect {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.connect_icons {
+  margin-block-end: 16px;
+}
+
+.connect_icons i {
+  font-size: 30px;
+}
+
+footer {
+  background-color: #051a22ff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer span {
+  color: rgb(60, 83, 135);
+}
+@media screen and (min-inline-size: 768px) {
+#logo {
+  display: inline-block;
+}
+
+nav {
+  padding: 0 32px;
+}
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .hero {
+    justify-content: flex-start;
+  }
+
+  .hero_content {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  .hero_head {
+    align-items: flex-start;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-transform: capitalize;
+  }
+
+  .nav-links li a {
+    color: #fff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .nav-links li a:hover {
+    border-bottom: 1px solid #fff;
+    color: #007bff;
+  }
+
+  .hero button {
+    width: 200px;
+    height: 40px;
+  }
+
+  /* contact section */
+  .contact_description {
+padding: 20px 100px;
+  
+}
+}
+</style>
